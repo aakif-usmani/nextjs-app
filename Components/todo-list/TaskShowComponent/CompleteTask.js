@@ -1,5 +1,6 @@
 // import React from "react";
 
+
 const CompleteTask = (props) => {
     const _removinghandler = (index) => {
         props.removinghandler(index);

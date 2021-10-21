@@ -22,6 +22,7 @@ import '../styles/DateInput.css'
 import '../styles/TaskInput.css'
 import '../styles/CompleteTask.css'
 import '../styles/UncompleteTask.css'
+import '../styles/todo-listcss.css'
 
 
 function MyApp({ Component, pageProps }) {
