@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from "react";
-import "./ExpensesDuplicate.css";
 
-const Expenses = () => {
+const DuplicateExpenses = () => {
   
   const DUMMY_ESPENSES = [
     {
@@ -247,4 +246,4 @@ const Expenses = () => {
   );
 };
 
-export default Expenses;
+export default DuplicateExpenses;

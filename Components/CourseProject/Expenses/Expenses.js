@@ -4,7 +4,7 @@ import ExpensesFilter from "../ExpensesFilter/ExpensesFilter";
 import Card from "../UI/Card";
 import ExpensesList from "./ExpensesList";
 import ExpensesChart from "./ExpensesChart";
-import "./Expenses.css";
+import "./";
 
 const Expenses = (props) => {
   const [filteredYear, setFilteredYear] = useState("2021");

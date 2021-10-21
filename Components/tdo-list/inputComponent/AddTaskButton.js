@@ -1,6 +1,5 @@
 import react from 'react';
 
-import './AddTaskButton.css';
 
 const AddTaskbutton = () => {
     return (
