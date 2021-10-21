@@ -1,5 +1,7 @@
 // import React from "react";
 
+import "./TaskInput.css";
+
 const TaskInput = () => {
     return(
         <div>
