@@ -1,6 +1,5 @@
 import React from "react";
 import ExpenseForm from "./ExpenseForm";
-import "./";
 
 const NewExopense = (props) => {
   const onSaveExpenseDatahandler = (enteredExpenseData) => {
