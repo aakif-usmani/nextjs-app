@@ -83,7 +83,7 @@ const App = () => {
   var removinghandler = (index) => {
     var a = taskList.items
     var removed = a.splice(index, 1)
-    console.log(removed);
+    // console.log(removed);
     setTaskList({ "items": a })
     var y = taskUList.items
 

@@ -78,7 +78,7 @@ const DuplicateExpenses = () => {
   };
   
   useEffect(()=>{
-    console.log("state changed");
+    // console.log("state changed");
     let xYears = [];
       expenses.filter((item)=>{
         if(xYears.indexOf(item.date.getFullYear()) == -1){

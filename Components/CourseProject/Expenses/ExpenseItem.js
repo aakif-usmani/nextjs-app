@@ -4,11 +4,11 @@ import ButtonX from "./Button";
 import ExpenseDate from "./ExpenseDate";
 
 const ExpenseItem = (props) => {
-  console.log("ExpenseItem evaluated by react" + props.title);
+  // console.log("ExpenseItem evaluated by react" + props.title);
   const [title, setTitle] = useState(props.title);
   const clickHandler = () => {
     setTitle("updated!!!!!");
-    console.log(props.title);
+    // console.log(props.title);
   };
 
   return (
