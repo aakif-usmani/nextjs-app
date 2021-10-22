@@ -23,6 +23,10 @@ import '../styles/TaskInput.css'
 import '../styles/CompleteTask.css'
 import '../styles/UncompleteTask.css'
 import '../styles/todo-listcss.css'
+import '../styles/ChartDuplicate.css'
+import '../styles/Filter.css'
+import '../styles/Form.css'
+import '../styles/List.css'
 
 
 function MyApp({ Component, pageProps }) {

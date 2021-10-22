@@ -1,0 +1,25 @@
+
+.heading-expense{
+    color: rgb(176, 238, 238);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.form-main {
+  width: 96%;
+  background-color: rgb(214, 245, 245);
+  border: 1px solid rgb(5, 164, 185);
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.classsbase-input {
+  width: 180px;
+  height: 30px;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid rgb(5, 164, 185);
+}
+.classsbase-input:hover {
+  background-color:rgb(169, 255, 255);
+}

@@ -172,7 +172,7 @@ const DuplicateExpenses = () => {
       </div>
 
       {filteredYear !== "all" && (
-        <div className="chart-main">
+        <div className="hart-main">
           <div className="chartDiv-binder" key={filteredYear}>
             {monthCount.map((month, index) =>{ 
               return (

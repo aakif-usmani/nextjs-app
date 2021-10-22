@@ -13,27 +13,32 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {/* <h1 className="title">
+        {/* <p className="title">
           Read{" "}
           <Link href="/posts/first-post">
             <a>this page!</a>
           </Link>
-        </h1> */}
-        <h1 className={styles.title}>
+        </p> */}
+        <p className={styles.title}>
           <Link href="/expenses">
           <a>EXPENSE MANAGER</a>
           </Link>
-        </h1>
-        <h1 className={styles.title}>
+        </p>
+        <p className={styles.title}>
           <Link href="/todoList">
           <a>TODO LIST</a>
           </Link>
-        </h1>
-        <h1 className={styles.title}>
+        </p>
+        <p className={styles.title}>
           <Link href="/duplicate-project">
           <a>DUPLICATE PROJECT</a>
           </Link>
-        </h1>
+        </p>
+        <p className={styles.title}>
+          <Link href="/DuplicateClassbase">
+          <a>DUPLICATE PROJECT ON CLASS BASE</a>
+          </Link>
+        </p>
         
         {/* <p className={styles.description}>
           Get started by editing{" "}
