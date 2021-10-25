@@ -27,6 +27,7 @@ import '../styles/ChartDuplicate.css'
 import '../styles/Filter.css'
 import '../styles/Form.css'
 import '../styles/List.css'
+import '../styles/DuplicateClassbase.css'
 
 
 function MyApp({ Component, pageProps }) {

@@ -36,11 +36,12 @@ class Classbase extends React.Component {
     this.state = {
       expense:this.ClassbaseDUMMY_ESPENSES,
     };
+    // console.log(Date);
   }
-
- 
- 
-
+  
+  
+  
+  
   render() {
     return (
       <div className="App">

@@ -8,10 +8,10 @@ class ClassbaseFilter extends react.Component {
     };
   }
   componentDidMount  = async () => {
-    console.log("state changed", this.props.ClassbaseExpenses);
+    // console.log("state changed");
     let xYears = [];
     this.props.ClassbaseExpenses.filter((item) => {
-      console.log(this.props.ClassbaseExpenses)
+      // console.log(this.props.ClassbaseExpenses)
       if (xYears.indexOf(item.date.getFullYear()) === -1) {
         xYears.push(item.date.getFullYear());
       }
@@ -23,7 +23,6 @@ class ClassbaseFilter extends react.Component {
 
   render() {
     let p = this.state.expensesYears.length;
-    console.log(this.state.expensesYears);
     return (
       <div className="classsbase-filter-main">
         <p className="classsbase-filter-text">
