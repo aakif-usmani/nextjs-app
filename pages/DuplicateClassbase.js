@@ -1,7 +1,7 @@
 import React from "react";
-import ClassbaseChart from "../Components/CourseProject/charts/Chart";
-import ClassbaseFilter from "../Components/DuplicateClassbase/ClassbaseFilter"
-import ClassbaseForm from "../Components/DuplicateClassbase/ClassbaseForm"
+import ClassbaseChart from "../Components/DuplicateClassbase/ClassbaseChart";
+import ClassbaseFilter from "../Components/DuplicateClassbase/ClassbaseFilter";
+import ClassbaseForm from "../Components/DuplicateClassbase/ClassbaseForm";
 import ClassbaseList from "../Components/DuplicateClassbase/ClassbaseList";
 
 class Classbase extends React.Component {

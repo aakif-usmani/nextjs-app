@@ -7,10 +7,11 @@ class ClassbaseFilter extends react.Component {
       expensesYears: [],
     };
   }
-  componentDidMount = async () => {
-    console.log("state changed");
+  componentDidMount  = async () => {
+    console.log("state changed", this.props.ClassbaseExpenses);
     let xYears = [];
-    this.props.ClassbaseExpense.filter((item) => {
+    this.props.ClassbaseExpenses.filter((item) => {
+      console.log(this.props.ClassbaseExpenses)
       if (xYears.indexOf(item.date.getFullYear()) === -1) {
         xYears.push(item.date.getFullYear());
       }
@@ -22,13 +23,13 @@ class ClassbaseFilter extends react.Component {
 
   render() {
     let p = this.state.expensesYears.length;
-    console.log(this.state.expensesYears.length);
+    console.log(this.state.expensesYears);
     return (
       <div className="classsbase-filter-main">
         <p className="classsbase-filter-text">
           <b>Filter Year </b>
         </p>
-        {p > 0 ? (
+        {p > 0  ? (
           <select className="classsbase-select-filter-year">
             <option className="classsbase-select-option" value={"all"}>
               all
@@ -43,7 +44,7 @@ class ClassbaseFilter extends react.Component {
             })}
           </select>
         ) : (
-          <p>kghhjk{p}hjkhjk</p>
+          <p>{p}</p>
         )}
       </div>
     );

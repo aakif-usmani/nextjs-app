@@ -29,7 +29,7 @@ class ClassbaseForm extends react.Component {
       amount: this.state.enteredAmount,
       date: new Date(this.state.enteredDate),
     };
-    console.log(expenseData);
+    // console.log(expenseData);
   };
 
   render() {
@@ -42,7 +42,7 @@ class ClassbaseForm extends react.Component {
           <form onSubmit={this.submitHandler}>
             {this.state.showHide === false ? (
               <div>
-                <button className="input" onClick={this.showHideHandler}>
+                <button className="classsbase-input" onClick={this.showHideHandler}>
                   Add New Expense
                 </button>
               </div>
@@ -50,7 +50,7 @@ class ClassbaseForm extends react.Component {
               <div>
                 <label>Expense</label>
                 <input
-                  className="text-input  input"
+                  className="text-input  classsbase-input"
                   type="text"
                   placeholder="Enter Title "
                   value={this.state.enteredTitle}
